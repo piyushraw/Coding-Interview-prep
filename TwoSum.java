@@ -3,10 +3,10 @@ public class TwoSum {
 
   public static int[] findTargetSum(int[] nums,int target) {
 
-       int n= nums.length;
+       int num= nums.length;
 
        int leftPointer=0;
-       int rightPointer=n-1;
+       int rightPointer=num-1;
 
        while(leftPointer< rightPointer) {
 
