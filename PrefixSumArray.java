@@ -4,13 +4,13 @@ public class PrefixSumArray {
     public static int[] findPrefixSum(int[] arr) {
 
         int n=arr.length;
-        int[] prefix=new int[n];
-        prefix[0]=arr[0];
+        int[] prefixSum=new int[n];
+        prefixSum[0]=arr[0];
 
         for(int i=1;i<n;i++) {
-            prefix[i]=prefix[i-1]+arr[i];
+            prefixSum[i]=prefixSum[i-1]+arr[i];
         }
-           return prefix;           
+           return prefixSum;           
         } 
     public static void main(String[] args) {
 
