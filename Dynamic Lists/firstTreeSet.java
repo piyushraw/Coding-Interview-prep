@@ -1,26 +1,27 @@
+
 import java.util.*;
+
 public class firstTreeSet {
 
     public static void main(String[] args) {
-        TreeSet<Integer> TSet=new TreeSet<>();
-
-        TSet.add(10);
-        TSet.add(40);
-        TSet.add(30);
-        TSet.add(10);
-        TSet.add(60);
-        TSet.add(50);
-        TSet.add(20);
-        TSet.add(0); 
         
-        TSet.remove(40);
-       System.out.println(TSet.contains(40));
-       System.out.println(TSet.first());
-       System.out.println(TSet.last());
+        TreeSet<String> set = new TreeSet<>();
 
-       System.out.println(TSet.higher(10));
-       System.out.println(TSet.lower(50));
+        set.add("Delta");     // O(log n)
+        set.add("Alpha");     // O(log n)
+        set.add("Charlie");   // O(log n)
+        set.add("Bravo");     // O(log n)
 
-        System.out.println(TSet);
+        System.out.println(set); // [Alpha, Bravo, Charlie, Delta] — sorted order
+
+        set.remove("Delta");     // O(log n)
+        System.out.println(set.contains("Charlie")); // O(log n)
+        System.out.println(set.size());              // O(1)
+        System.out.println(set.isEmpty());           // O(1)
+
+        System.out.println(set.first());             // O(log n)
+        System.out.println(set.last());              // O(log n)
+
+        System.out.println(set); // [Alpha, Bravo, Charlie]
     }
 }

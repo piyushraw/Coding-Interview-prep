@@ -1,21 +1,22 @@
-
 import java.util.*;
+
 public class firstHashMap {
 
     public static void main(String[] args) {
+        
+        HashMap<Integer, String> map = new HashMap<>();
 
-        HashMap<Integer,Integer> map=new HashMap<>();
-          List<Integer> list=Arrays.asList(5,5,5,6,8,8,8,10);
+        map.put(3, "Three");       // O(1)
+        map.put(1, "One");         // O(1)
+        map.put(2, "Two");         // O(1)
+        map.put(1, "Uno");         // O(1) — updates value for key 1
 
-          map.put(1,20);
-          map.put(0,40);
-          map.put(2,60);
-          map.put(3,70);
-          map.put(4,10);
-          map.put(5,100);
-          map.put(2,160);
+        System.out.println(map);   // Order is NOT guaranteed
 
-          System.out.println(map);
-         
-}
+        System.out.println(map.get(2));    // O(1)
+        map.remove(3);                     // O(1)
+        System.out.println(map.containsKey(1)); // O(1)
+        System.out.println(map.size());         // O(1)
+        System.out.println(map.isEmpty());      // O(1)
+    }
 }

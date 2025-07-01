@@ -1,20 +1,23 @@
-import java.util.LinkedHashSet;
+import java.util.*;
 
 public class firstLinkedHashSet {
- public static void main(String[] args) {
 
-    LinkedHashSet<Integer> LHashSet=new LinkedHashSet<>();
+    public static void main(String[] args) {
+        
+        LinkedHashSet<String> set = new LinkedHashSet<>();
+        
+        set.add("Apple");      // O(1)
+        set.add("Banana");     // O(1)
+        set.add("Cherry");     // O(1)
+        set.add("Banana");     // O(1) — duplicate, ignored
 
-    LHashSet.add(30);
-    LHashSet.add(40);
-    LHashSet.add(50);
-    LHashSet.add(70);
-    LHashSet.add(80);
-    LHashSet.add(10);
-    LHashSet.add(20);
+        System.out.println(set); // [Apple, Banana, Cherry] — insertion order preserved
 
-    System.out.println(LHashSet);
+        set.remove("Apple");     // O(1)
+        System.out.println(set.contains("Cherry")); // O(1)
+        System.out.println(set.size());             // O(1)
+        System.out.println(set.isEmpty());          // O(1)
 
- }
-    
+        System.out.println(set); // [Banana, Cherry]
+    }
 }
