@@ -1,21 +1,24 @@
+
 import java.util.*;
 public class firstLinkedList {
 
     public static void main(String[] args) {
         
          LinkedList<String> list=new LinkedList<>();
-         list.add("Hi");
-         list.addFirst("Good morning");
-         list.addLast("How are you");
+         list.add("Hi");                     //  O(1)
+         list.addFirst("Good morning");      //  O(1)
+         list.addLast("How are you");        //  O(1)
+         list.add(1,"B");        //  O(n)
+         System.out.println(list);               
+         list.remove(2);                  // O(n)
 
-         System.out.println(list);
+         System.out.println(list);              
+         System.out.println(list.get(1));   //O(n)  
+         System.out.println(list.set(1,"Damn"));     //O(n)
+         System.out.println(list.size());         // O(1)  
+         System.out.println(list); 
 
-         list.removeFirst();
-         list.removeLast();
-         list.add(1,"B");
-         System.out.println(list);  //[Hi,B]
-         System.out.println(list.get(0)); //[Hi]
-         System.out.println(list.size()); // 2
+         Collections.sort(list);
+         System.out.println(list); 
     }
-    
 }
