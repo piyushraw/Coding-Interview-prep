@@ -7,7 +7,7 @@ public class StudentData {
     String course;
     double grade;
     
-    // studentDta constructor
+    // studentData constructor
     public StudentData(String id, String name, int age, String course, double grade) {
         this.id = id;
         this.name = name;
@@ -23,7 +23,8 @@ public class StudentData {
         StudentData s = (StudentData) o;
         return this.name.equals(s.name);
     }
-
+    
+    // override hashcode
     @Override
     public int hashCode() {
         return Objects.hash(name); 
