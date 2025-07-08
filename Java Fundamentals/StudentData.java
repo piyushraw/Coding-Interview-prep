@@ -16,6 +16,7 @@ public class StudentData {
         this.grade = grade;
     }
 
+    // Override Equals method 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
