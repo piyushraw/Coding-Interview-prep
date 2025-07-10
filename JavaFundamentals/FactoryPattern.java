@@ -16,6 +16,12 @@ public class FactoryPattern {
         }
     }
 
+    static class Juice implements Drink {
+          public void serve() {
+            System.out.println("Serving Juice");
+          }
+    }
+
     static class DrinkFactory{
         
             public Drink getDrink(String type) {
@@ -23,7 +29,9 @@ public class FactoryPattern {
                       return new Tea();
                  } else if (type.equalsIgnoreCase("coffee")) {
                          return new Coffee();
-                 } else {
+                 } else if (type.equalsIgnoreCase("juice")) {
+                        return new Juice();
+                 }  else {
                     return null;
                  }
             }
@@ -36,5 +44,7 @@ public class FactoryPattern {
                myDrink1.serve();
                Drink myDrink2=factory.getDrink("coffee");
                myDrink2.serve();
+               Drink myDrink3=factory.getDrink("juice");
+               myDrink3.serve();
     }
 }
