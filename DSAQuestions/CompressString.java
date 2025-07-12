@@ -8,7 +8,7 @@ public class CompressString {
             char currentChar=str.charAt(i);
             int count=0;
 
-            while(i<n&& str.charAt(i) == currentChar) {
+            while(i<n && str.charAt(i) == currentChar) {
                 count++;
                 i++;
             }
