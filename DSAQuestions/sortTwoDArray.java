@@ -2,7 +2,7 @@
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class sortTwoDArray {
+public class SortTwoDArray {
 
       public static void main(String[] args) {
 
