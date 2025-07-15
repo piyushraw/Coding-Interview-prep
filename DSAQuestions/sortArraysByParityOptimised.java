@@ -1,4 +1,4 @@
-public class sortArraysByParityOptimised {
+public class SortArraysByParityOptimised {
 
     public static int[] findArraysByParityOptimised(int[] nums) {
 

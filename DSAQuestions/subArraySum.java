@@ -1,6 +1,6 @@
 
 import java.util.*;
-public class subArraySum {
+public class SubArraySum {
 
     public static int findSubarraySum(int[] nums, int k) {
 

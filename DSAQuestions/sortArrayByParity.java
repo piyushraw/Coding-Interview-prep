@@ -1,4 +1,4 @@
-public class sortArrayByParity {
+public class SortArrayByParity {
 
     public static int[] findArrayByParity(int[] input) {
 
