@@ -6,7 +6,7 @@ public class MoveZeroesOptimised {
         int nonZero =0;
 
         for (int i=0;i<n;i++) {
-            if (nums[i]>0) {
+            if (nums[i]!=0) {
                 nums[nonZero++] = nums[i];
             }
         }
