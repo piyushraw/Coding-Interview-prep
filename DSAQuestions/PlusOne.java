@@ -20,7 +20,7 @@ public class PlusOne {
     }
 
     public static void main(String[] args) {
-        int[] nums={1,2,3};
+        int[] nums={9,8,7,6,5,4,3,2,1,0};
         int[] result=findPlusOne(nums);
         for(int res:result){
             System.out.println(res+" ");
