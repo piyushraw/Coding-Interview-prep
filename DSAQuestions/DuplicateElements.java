@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.HashSet;
 public class DuplicateElements {
 
        public static boolean findDuplicates(int[] nums) {
@@ -9,7 +9,6 @@ public class DuplicateElements {
                   if(set.contains(num)) {
                       return true;
                   }
-
                   set.add(num);
               }
                  return false;
@@ -22,6 +21,5 @@ public class DuplicateElements {
 
              System.out.println(findDuplicates(nums));
              System.out.println(findDuplicates(nums1));
-           
        }
 }
