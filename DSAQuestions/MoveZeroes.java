@@ -7,7 +7,7 @@ public class MoveZeroes {
               int idx=0;
 
               for (int i=0;i<n;i++) { 
-                     if(nums[i]>00) {
+                     if(nums[i]>0) {
                     arr[idx++] = nums[i];
                      }
                    }

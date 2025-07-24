@@ -1,12 +1,11 @@
 
 import java.util.Arrays;
-
 public class SecondLargest {
 
       public static int findSecondLargest(int[] nums) {
                    
                  Arrays.sort(nums);     // O(nlogn). {2,8,50,70,100}
-                int n=nums.length;     // 5
+                int n=nums.length;      // 5
                 int max=nums[n-1];      // max= 5-1=4
 
                 for(int i=n-2;i>=0;i--) {
