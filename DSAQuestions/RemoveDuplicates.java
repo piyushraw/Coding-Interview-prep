@@ -9,7 +9,7 @@ public class RemoveDuplicates {
                         set.add(num);
                     }   
                   int k= set.size();
-                  return k;
+                  return k; // hello
     }
 
        public static void main(String[] args) {
