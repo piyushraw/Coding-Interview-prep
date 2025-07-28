@@ -1,3 +1,4 @@
+// can you print Hello without main method.
 public class Hello {
     static {
         System.out.println("Hello");
