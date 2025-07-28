@@ -22,7 +22,7 @@ class Printer {
       public String getStatus() {
           return this.status;
       }
-}
+
 public class Main {
 
       public static void main(String[] args) {
@@ -35,4 +35,6 @@ public class Main {
         System.out.println("p2 status="+ p2.getStatus());
         System.out.println(p1==p2);
       }
+}
+
 }

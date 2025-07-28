@@ -76,12 +76,9 @@ public static int[] reverseArray(int[] nums) {
 
         int[] arr={2,4,6,8,10};
         int[] nums={1,2,3,4,5,6};
-        int[] num={1,2,3,4,5};
         int[] result={12,5,7,3,19};
         int[] countNumbers={4,2,4,3,4,1,2};
         int Target=4;
-
-        int[] reverseCount=reverseArray(num);
         int[] countArray={10,20,30,40,50};
         int target=60;
         System.out.println(findTotalSum(arr));
