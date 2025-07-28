@@ -27,6 +27,5 @@ public class MoveZeroesOptimised {
            for(int res: nums){
                System.out.println(res+" ");
            }
-
 }
 }
