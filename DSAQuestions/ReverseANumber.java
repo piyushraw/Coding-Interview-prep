@@ -2,7 +2,7 @@ public class ReverseANumber {
 
     public static int reverseNumber(int num) {
                
-        int revNum=0;
+        int revNum=0;   // reverse number
 
         while(num!=0) {
         int digit=num%10;
