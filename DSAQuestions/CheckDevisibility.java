@@ -6,10 +6,10 @@ public class CheckDevisibility {
                     int product=1;
 
                     while(x>0) {
-                        int digit=x%10;
-                        sum=sum+digit;
-                        product=product*digit;
-                        x=x/10;
+                        int digit=x%10;  // Get the last digit
+                        sum=sum+digit;  // add to sum
+                        product=product*digit;  // Multiply with product
+                        x=x/10; // Remove last digit
                     }
                     int total=sum+product;
 
