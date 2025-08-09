@@ -20,6 +20,8 @@ public class MoveZeroes {
                    return arr;    
     }
 
+    // Time complexity: O(n)
+
     public static void main(String[] args) {
 
             int[] nums={0,2,3,1,0,0,4,3,7,87,54,0};
