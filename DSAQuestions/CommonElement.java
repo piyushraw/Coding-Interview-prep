@@ -37,9 +37,7 @@ public class CommonElement {
                                 }
                             }
                         }
-
                         int[] newArr =new int[list.size()];
-
                         for(int i=0;i<list.size();i++) {
                                 newArr[i]= list.get(i);
                           }
