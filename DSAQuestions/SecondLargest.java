@@ -26,7 +26,7 @@ public class SecondLargest {
                         }
                             int secondMax=Integer.MIN_VALUE;
                             for(int num: nums) {
-                                     if(num != max && num > secondMax) {
+                                     if(num < max && num > secondMax) {
                                          secondMax=num;
                                      }     
                             }
