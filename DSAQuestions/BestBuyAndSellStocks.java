@@ -16,6 +16,8 @@ public class BestBuyAndSellStocks {
         return maxProfit; 
     }
 
+    // Best Time to Buy and Sell Stocks
+
     public static void main(String[] args) {
         int[] Prices={10,1,5,6,7,1};
         int[] Prices1={10,8,7,5,2};
