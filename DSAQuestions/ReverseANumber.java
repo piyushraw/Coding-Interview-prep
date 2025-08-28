@@ -1,6 +1,8 @@
 public class ReverseANumber {
 
     public static int reverseNumber(int num) {
+
+       // reversing  a number
                
         int revNum=0;
 
