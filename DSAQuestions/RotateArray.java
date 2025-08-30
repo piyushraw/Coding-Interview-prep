@@ -7,6 +7,8 @@ public class RotateArray {
         int idx=0;
         int idm=0;
 
+        //Rotation of array
+
         for(int i=n-1;i>=0;i--) {
             arr[idx++]=nums[i];
         }
