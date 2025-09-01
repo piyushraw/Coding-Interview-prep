@@ -10,6 +10,8 @@ public class CalculateSum {
         return result;
     }
 
+     // simple and easy
+
     public static int countEvenNumbers(int[] nums) {
 
                int n=nums.length;
