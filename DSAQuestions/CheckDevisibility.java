@@ -1,9 +1,12 @@
 public class CheckDevisibility {
 
+    //Check Divisiblity
+
     public static boolean FindDevisibiltyNumber(int n) {
                     int x=n;
                     int sum=0;
                     int product=1;
+        
 
                     while(x>0) {
                         int digit=x%10;  // Get the last digit
