@@ -2,6 +2,8 @@ public class ClimbingStairs {
 
     public static int findClimbingStairs(int n) {
 
+        // climbing stairs
+
            if(n==1||n==2) {
             return n;
            }
