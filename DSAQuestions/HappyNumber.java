@@ -2,6 +2,8 @@ import java.util.HashSet;
 public class HappyNumber {
 
     public static boolean findHappyNumber(int n) {
+
+        // Happy Number
          
         HashSet<Integer>seen=new HashSet<>();
         while(n!=1 && !seen.contains(n)) {
