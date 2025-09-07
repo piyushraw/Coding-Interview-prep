@@ -2,6 +2,7 @@ public class BestBuyAndSellStocks {
 
     public static int findMaximunProfit(int[] prices) {
         // Logic comes here
+        //Best Buy and Sell Stocks
 
         int minPrice=Integer.MAX_VALUE;
         int maxProfit=0;
