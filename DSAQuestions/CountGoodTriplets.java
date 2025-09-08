@@ -3,6 +3,8 @@ public class CountGoodTriplets {
 
     public static int findGoodTriplets(int[] nums, int a, int b, int c ) {
 
+        // count Good Triplets
+
             int n=nums.length;
             int count=0;
 
